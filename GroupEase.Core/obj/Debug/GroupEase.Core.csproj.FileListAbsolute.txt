@@ -1,0 +1,5 @@
+C:\GitHub\GroupEase\GroupEase.Core\bin\Debug\GroupEase.Core.dll
+C:\GitHub\GroupEase\GroupEase.Core\bin\Debug\GroupEase.Core.pdb
+C:\GitHub\GroupEase\GroupEase.Core\obj\Debug\GroupEase.Core.csprojResolveAssemblyReference.cache
+C:\GitHub\GroupEase\GroupEase.Core\obj\Debug\GroupEase.Core.dll
+C:\GitHub\GroupEase\GroupEase.Core\obj\Debug\GroupEase.Core.pdb

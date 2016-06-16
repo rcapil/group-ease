@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83110a37f1c44c9199757f4bff9044b9" Name="Diagram1">
+        <EntityTypeShape EntityType="GroupEaseModel.Activity" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.Member" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.Message" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.Question" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.QuestionOrder" Width="1.5" PointX="6" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.QuestionType" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.Response" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.ResponseChoice" Width="1.5" PointX="3" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.Survey" Width="1.5" PointX="3.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.SurveyResponse" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.Task" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroupEaseModel.User" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="GroupEaseModel.FK_Member_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Message_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Survey_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Task_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Member_User" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Message_User" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_QuestionOrder_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_QuestionType_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Response_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_ResponseChoice_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_QuestionOrder_Survey" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Response_SurveyResponse" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Response_User" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_SurveyResponse_Survey" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_SurveyResponse_User" ManuallyRouted="false" />
+        <AssociationConnector Association="GroupEaseModel.FK_Task_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
